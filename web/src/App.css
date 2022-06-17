@@ -1,0 +1,67 @@
+header {
+  background-color: lightblue;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header p {
+  margin: 0;
+}
+
+header span {
+  display: inline-block;
+}
+
+header span::first-letter {
+  color: blue;
+}
+
+main {
+  background-color: azure;
+}
+
+section, aside {
+  display: flex;
+  flex-direction: column;
+  min-height: 32rem;
+  margin: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.tab-content {
+  flex: 1;
+  padding: 1rem;
+  border-left: #dee2e6 solid 1px;
+  border-right: #dee2e6 solid 1px;
+  border-bottom: #dee2e6 solid 1px;
+}
+
+.table-sm td, .table-sm thead th {
+  padding: 0;
+  font-size: smaller;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom-width: 1px;
+}
+
+.table-sm td {
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+
+footer {
+  background-color: lightblue;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+#content {
+  padding: 0;
+}

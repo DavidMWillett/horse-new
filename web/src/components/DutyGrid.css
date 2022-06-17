@@ -1,0 +1,13 @@
+td.label {
+  font-weight: bold;
+}
+
+button.duty-grid {
+  width: 100%;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+button.duty-grid:hover {
+  background-color: #e0e0e0;
+}
